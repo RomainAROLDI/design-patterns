@@ -1,3 +1,15 @@
+/*
+    6. Considérant ce code. A vous de trouver le moyen de rendre compatible l'utilisation de
+    la classe ComposantPdf avec la classe DocumentHtml : ...
+
+    Design pattern : Adapter
+
+    Pourquoi ?
+    L'Adapter est précieux lorsqu'une interface existante doit être utilisée, mais ne correspond pas à
+    l'interface requise par l'application. Dans cette situation, le meilleur moyen de rendre compatible l'utilisation
+    de la classe ComposantPdf avec la classe DocumentHtml est de mettre en place ce pattern.
+*/
+
 interface Document {
     Content: string;
 
