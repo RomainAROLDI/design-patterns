@@ -71,6 +71,8 @@ class ChatRoom implements ChatMediator {
     }
 }
 
+// bun run 9/index.ts
+
 const chatRoom = new ChatRoom();
 
 const user1 = new ChatUser("Alice", chatRoom);

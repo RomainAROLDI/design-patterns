@@ -300,6 +300,8 @@ class CompletedOrder implements OrderState {
     }
 }
 
+// bun run 3/index.ts
+
 const order = new Order();
 
 order.takeOrder(); // Order taken.

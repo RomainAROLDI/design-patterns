@@ -80,6 +80,8 @@ class PdfComponent {
     }
 }
 
+// bun run 6/index.ts
+
 const documentHtml: Document = new DocumentHtml();
 documentHtml.Content = "<html><body>HTML Content</body></html>";
 documentHtml.Draw();

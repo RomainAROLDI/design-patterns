@@ -40,6 +40,8 @@ class PromotionLeader {
     }
 }
 
+// bun run 1/index.ts
+
 const leader = PromotionLeader.getInstance("Alice");
 console.log(leader.getName()); // Alice
 

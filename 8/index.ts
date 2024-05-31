@@ -76,6 +76,8 @@ class Rectangle extends Shape {
     }
 }
 
+// bun run 8/index.ts
+
 const openGLRenderer = new OpenGLRenderer();
 const directXRenderer = new DirectXRenderer();
 

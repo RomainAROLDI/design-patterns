@@ -84,6 +84,8 @@ class AngelDecorator extends TreeDecorator {
     }
 }
 
+// bun run 4/index.ts
+
 let tree: ChristmasTree = new ConcreteChristmasTree();
 console.log(tree.getDescription()); // Christmas Tree
 console.log(`${tree.getNumberOfDecorations()} éléments sont présents sur le sapin.`); // 0 éléments sont présents sur le sapin.

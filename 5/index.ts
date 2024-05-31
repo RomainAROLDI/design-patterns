@@ -93,6 +93,8 @@ class Student {
     }
 }
 
+// bun run 5/index.ts
+
 const goodStudentDreaming = new Student(new GoodStudent(), new Dreaming());
 const averageStudentSleeping = new Student(new AverageStudent(), new Sleeping());
 const badStudentQuestioning = new Student(new BadStudent(), new Questioning());

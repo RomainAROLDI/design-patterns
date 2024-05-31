@@ -54,6 +54,8 @@ class DiceFactory {
     }
 }
 
+// bun run 7/index.ts
+
 const classicDice: IDice = DiceFactory.createClassicDice();
 console.log('Classic Dice roll:', classicDice.roll()); // Entre 1 et 6 (inclus)
 

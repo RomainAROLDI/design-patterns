@@ -73,6 +73,8 @@ class Car implements Observer {
     }
 }
 
+// bun run 2/index.ts
+
 const stationMeteo = new WeatherStation("Pluie");
 
 const telephone = new Phone();
